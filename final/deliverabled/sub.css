@@ -1,0 +1,46 @@
+body{
+	margin: 0;
+	font-size: 25px;
+}
+
+.welcome{
+	background-image: url("pic4.jpg");
+	height: 100vh;
+	background-position: center;
+	background-size: cover;
+	display: flex;
+	flex-direction: column;
+	text-align: center;
+	justify-content: center;
+	padding-left: 10px;
+	padding-right: 10px;
+}
+
+.welcome h1{
+	font-size: 50px;
+	color: #ecf0f1;
+	margin: auto;
+	letter-spacing: 3px;
+	text-transform: uppercase;
+}
+
+.welcome .button{
+	border: 3px;
+	border: solid;
+	border-radius: 15px;
+	width: 20%;
+	padding:9px 9px;
+	text-decoration: none;
+	margin: auto;
+	bottom: 60px;
+	color: #ecf0f1;
+	border-color: black;
+	-webkit-transition-duration: 0.6s;
+	letter-spacing: 3px;
+	text-transform: uppercase;
+}
+
+.welcome .button:hover{
+	background-color: #34495e;
+	color: #ecf0f1;
+}
